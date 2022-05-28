@@ -1,0 +1,3 @@
+Carousel image 
+--> height = 600px
+

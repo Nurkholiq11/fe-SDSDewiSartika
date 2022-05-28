@@ -1,0 +1,93 @@
+.homepage .carousel {
+  height: 600px;
+  overflow: hidden;
+}
+
+.homepage .carousel .carousel-inner .carousel-item {
+  height: 600px;
+}
+
+.homepage .carousel .carousel-inner .carousel-item img {
+  height: 100%;
+}
+
+.homepage .carousel .carousel-control-prev-icon {
+  background-color: #a64b2a;
+  position: absolute;
+  left: -2vw;
+  width: 7vw;
+  height: 7vh;
+  border-radius: 100px;
+  transition: 0.3s;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.17);
+}
+
+.homepage .carousel .carousel-control-prev-icon:hover {
+  border-radius: 0;
+  background-color: #a64b2a;
+}
+
+.homepage .carousel .carousel-control-next-icon {
+  background-color: #a64b2a;
+  position: absolute;
+  right: -2vw;
+  width: 7vw;
+  height: 7vh;
+  border-radius: 100px;
+  transition: 0.3s;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.17);
+}
+
+.homepage .carousel .carousel-control-next-icon:hover {
+  border-radius: 0;
+  background-color: #a64b2a;
+}
+
+/* welcome  */
+.welcome {
+  padding: 10px;
+  margin: 5vh 0 10vh;
+}
+
+.welcome .profile {
+  text-align: center;
+  margin: 5vh auto 1vh;
+}
+
+.welcome .profile img {
+  width: 20%;
+  border-radius: 180px;
+  margin-bottom: 3vh;
+}
+
+.welcome .profile h1 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #000000;
+  margin-bottom: 3vh;
+}
+
+.welcome .profile h2 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #000000;
+  margin-bottom: 5vh;
+}
+
+.welcome .txt {
+  width: 60%;
+  margin: auto;
+  text-align: justify;
+}
+
+.welcome .txt q {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
