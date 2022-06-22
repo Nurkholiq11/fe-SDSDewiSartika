@@ -14,70 +14,79 @@
 }
 
 .news .container {
-  text-align: left;
+  padding-top: 2vh;
 }
 
-.news .news-item {
-  padding: 10px;
-  border-bottom: 1px solid black;
+.news .container .news-item {
+  width: 100%;
+  height: 60vh;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.056);
+  margin-bottom: 5vh;
 }
 
-.news .news-item h1 {
-  font-size: 20px;
-  font-weight: 600;
-  text-align: left;
+.news .container .news-item .news-image {
+  width: 100%;
+  position: relative;
 }
 
-.news .news-item .info {
-  display: flex;
-  flex-direction: row;
-  gap: 2vw;
-}
-
-.news .news-item .info .date {
-  display: flex;
-  flex-direction: row;
-  gap: 0.5vw;
-}
-
-.news .news-item .info .author {
-  display: flex;
-  flex-direction: row;
-  gap: 0.5vw;
-}
-
-.news .news-item .newsImage {
-  width: 40%;
-  margin: 1vh auto;
-}
-
-.news .news-item .newsImage img {
+.news .container .news-item .news-image img {
   width: 100%;
   height: 100%;
 }
 
-.news .news-item .newsDesc {
-  margin-top: 5vh;
+.news .container .news-item .news-image .news-status {
+  background-color: #a64b2a;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  font-size: 100%;
+  padding: 0.5vh 2vw;
+  text-transform: uppercase;
 }
 
-.news .news-item .newsDesc p {
-  text-align: justify;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 24px;
-  letter-spacing: 0.1px;
-  color: #52525295;
+.news .container .news-item .card-body {
+  text-align: left;
 }
 
-.news .news-item .newsDesc a {
+.news .container .news-item .card-body .card-title {
+  font-size: 120%;
+  line-height: 130%;
+  font-weight: 700;
+}
+
+.news .container .news-item .card-body .card-text {
+  font-size: 100%;
+  line-height: 130%;
+  font-weight: 400;
+  height: 16vh;
+  overflow: hidden;
+}
+
+.news .container .news-item .card-body .button {
+  width: 37%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #a64b2a;
+}
+
+.news .container .news-item .card-body .button i {
+  font-size: 180%;
+}
+
+.news .container .news-item .card-body .button a {
+  font-size: 110%;
+  font-weight: 600;
+  letter-spacing: 0.05vw;
+  color: #a64b2a;
   text-decoration: none;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 24px;
-  letter-spacing: 0.1px;
-  color: #505050;
 }
 
-.news .news-item .newsDesc a:hover {
-  color: #171717;
+.news .container .news-item .card-body .button a:hover {
+  cursor: pointer;
+  color: #7a361d;
 }

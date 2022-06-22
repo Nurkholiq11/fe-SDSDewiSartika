@@ -30,3 +30,45 @@
   text-align: left;
   margin: 1vh 0;
 }
+
+.contactUs .container form {
+  padding: 1vh 1vw 2vh;
+  background-color: #a64b2a;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.437);
+}
+
+.contactUs .container form .form-label {
+  width: 100%;
+  text-align: left !important;
+  font-size: 120%;
+}
+
+.contactUs .container form input {
+  padding: 1vh 1vw;
+}
+
+.contactUs .container form textarea {
+  resize: none;
+  height: 15vh;
+}
+
+.contactUs .container form button {
+  width: 50%;
+  padding: 1vh 0;
+  color: #fff;
+  background-color: #ec6d3f;
+  outline: none;
+  border: none;
+}
+
+.contactUs .container form button:hover {
+  background-color: #cd5f37;
+}
+
+.contactUs .container form button:focus {
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
