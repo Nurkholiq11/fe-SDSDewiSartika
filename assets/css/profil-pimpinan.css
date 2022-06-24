@@ -1,0 +1,48 @@
+.profil-pimpinan {
+  padding: 5vh;
+}
+
+.profil-pimpinan .img-side {
+  text-align: center;
+}
+
+.profil-pimpinan .img-side img {
+  width: 60%;
+  height: 100%;
+}
+
+.profil-pimpinan .detail-side {
+  padding: 1vh 1vw 0 2vw;
+}
+
+.profil-pimpinan .detail-side h1 {
+  font-size: 200%;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.profil-pimpinan .detail-side h2 {
+  font-size: 100%;
+  font-weight: 500;
+}
+
+.profil-pimpinan .detail-side h3 {
+  font-size: 100%;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.profil-pimpinan .detail-side .education {
+  font-size: 100%;
+  color: #a64b2a;
+}
+
+.profil-pimpinan .detail-side ul {
+  padding-left: 1.3vw;
+}
+
+.profil-pimpinan .detail-side ul li {
+  font-size: 100%;
+  font-weight: 500;
+}
