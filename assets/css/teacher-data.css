@@ -1,12 +1,20 @@
 .data-guru {
+  margin: 3vh 0 10vh;
   text-align: center;
-  padding-top: 5vh;
+}
+
+.data-guru h1 {
+  font-weight: 700;
+  font-size: 300%;
+  line-height: 100%;
+  letter-spacing: 0.1px;
+  color: #a64b2a;
+  margin: 5vh 0 1vh;
+  text-align: center;
 }
 
 .data-guru .container {
-  padding: 1vh 0;
-  margin-bottom: 5vh;
-  padding-top: 5vh;
+  padding-top: 2vh;
 }
 
 .data-guru .container .data {

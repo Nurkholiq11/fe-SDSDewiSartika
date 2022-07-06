@@ -4,10 +4,11 @@
 
 .profil-pimpinan .img-side {
   text-align: center;
+  padding: 0 7vw;
 }
 
 .profil-pimpinan .img-side img {
-  width: 60%;
+  width: 100%;
   height: 100%;
 }
 

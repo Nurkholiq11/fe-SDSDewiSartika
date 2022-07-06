@@ -1,18 +1,24 @@
 .history {
   margin: 3vh 0 10vh;
-}
-
-.history h1 {
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 24px;
-  letter-spacing: 0.1px;
-  color: #a64b2a;
-  margin: 5vh 0;
   text-align: center;
 }
 
-.history p {
+.history h1 {
+  font-weight: 700;
+  font-size: 300%;
+  line-height: 100%;
+  letter-spacing: 0.1px;
+  color: #a64b2a;
+  margin: 5vh 0 1vh;
+  text-align: center;
+}
+
+.history .container {
+  padding: 2vh 0;
+  margin-bottom: 5vh;
+}
+
+.history .container p {
   text-align: justify;
   font-weight: 500;
   font-size: 16px;

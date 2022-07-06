@@ -1,6 +1,16 @@
 .gallery {
+  margin: 3vh 0 10vh;
   text-align: center;
-  padding-top: 5vh;
+}
+
+.gallery h1 {
+  font-weight: 700;
+  font-size: 300%;
+  line-height: 100%;
+  letter-spacing: 0.1px;
+  color: #a64b2a;
+  margin: 5vh 0 1vh;
+  text-align: center;
 }
 
 .gallery .container {

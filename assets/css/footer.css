@@ -23,8 +23,8 @@ footer .top .left img {
 
 footer .top .left h1 {
   font-weight: 400;
-  font-size: 15px;
-  text-align: left;
+  font-size: 100%;
+  line-height: 140%;
   text-align: justify;
 }
 
@@ -45,7 +45,7 @@ footer .top .right ul li {
   display: flex;
   flex-direction: row;
   gap: 2vw;
-  font-size: 15px;
+  font-size: 100%;
   font-weight: 400;
 }
 
@@ -56,6 +56,49 @@ footer .bot {
 }
 
 footer .bot p {
-  padding: 20px;
+  padding: 1vh 1vw;
   text-align: center;
+}
+
+/* responsive */
+/* mobile */
+@media only screen and (max-width: 768px) {
+  footer .top .container {
+    flex-direction: column;
+  }
+
+  footer .top .left {
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center;
+    border-right: none;
+  }
+
+  footer .top .left img {
+    width: 30%;
+    margin-bottom: 3vh;
+  }
+
+  footer .top .left h1 {
+    font-weight: 400;
+    font-size: 90%;
+  }
+
+  footer .top .right {
+    width: 100% !important;
+    border-right: none;
+  }
+
+  footer .top .right ul {
+    margin: 1vh auto;
+    padding: 0;
+    width: 90%;
+  }
+
+  footer .top .right ul li {
+    width: 100% !important;
+    font-size: 90%;
+    font-weight: 400;
+    text-align: left;
+  }
 }

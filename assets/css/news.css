@@ -5,8 +5,8 @@
 
 .news h1 {
   font-weight: 700;
-  font-size: 36px;
-  line-height: 24px;
+  font-size: 300%;
+  line-height: 100%;
   letter-spacing: 0.1px;
   color: #a64b2a;
   margin: 5vh 0 1vh;
@@ -19,7 +19,7 @@
 
 .news .container .news-item {
   width: 100%;
-  height: 60vh;
+  height: fit-content;
   margin: auto;
   border-radius: 10px;
   overflow: hidden;
@@ -58,10 +58,10 @@
 }
 
 .news .container .news-item .card-body .card-text {
-  font-size: 100%;
-  line-height: 130%;
+  font-size: 85%;
+  line-height: 160%;
   font-weight: 400;
-  height: 16vh;
+  height: auto;
   overflow: hidden;
 }
 
