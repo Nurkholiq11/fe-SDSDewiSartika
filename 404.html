@@ -16,15 +16,16 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
     />
+
     <!-- mycss -->
-    <link rel="stylesheet" href="../assets/css/header.css" />
-    <link rel="stylesheet" href="../assets/css/footer.css" />
-    <link rel="stylesheet" href="../assets/css/detail-news.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/404.css" />
 
     <!-- icon  -->
     <link
       rel="shortcut icon"
-      href="../assets//images/logo_sds.png"
+      href="./assets/images/logo_sds.png"
       type="image/x-icon"
     />
 
@@ -68,7 +69,7 @@
             <ul class="navbar-nav mx-auto">
               <!-- beranda -->
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../index.html"
+                <a class="nav-link" aria-current="page" href="./index.html"
                   >Home</a
                 >
               </li>
@@ -91,34 +92,38 @@
                   <div class="dropdown-container">
                     <i class="bi bi-caret-up-fill"></i>
                     <li>
-                      <a class="dropdown-item" href="./sejarah-singkat.html"
+                      <a
+                        class="dropdown-item"
+                        href="./pages/sejarah-singkat.html"
                         >Sejarah Singkat</a
                       >
                     </li>
                     <li>
                       <a
                         class="dropdown-item"
-                        href="./sejarah-pengembangan.html"
+                        href="./pages/sejarah-pengembangan.html"
                         >Sejarah Pengembangan</a
                       >
                     </li>
                     <li>
-                      <a class="dropdown-item" href="./visi-misi.html"
+                      <a class="dropdown-item" href="./pages/visi-misi.html"
                         >Visi dan Misi</a
                       >
                     </li>
                     <li>
-                      <a class="dropdown-item" href="./tugas-fungsi.html"
+                      <a class="dropdown-item" href="./pages/tugas-fungsi.html"
                         >Tugas dan fungsi</a
                       >
                     </li>
                     <li>
-                      <a class="dropdown-item" href="./profil-pimpinan.html"
+                      <a
+                        class="dropdown-item"
+                        href="./pages/profil-pimpinan.html"
                         >Profil Pimpinan</a
                       >
                     </li>
                     <li>
-                      <a class="dropdown-item" href="./data-guru.html"
+                      <a class="dropdown-item" href="./pages/data-guru.html"
                         >Data Guru</a
                       >
                     </li>
@@ -126,12 +131,72 @@
                 </ul>
               </li>
               <!-- berita -->
-              <li class="nav-item">
-                <a class="nav-link active" href="./news.html">Berita</a>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="berita"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Berita
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="berita">
+                  <div class="dropdown-container">
+                    <i class="bi bi-caret-up-fill"></i>
+                    <li>
+                      <a class="dropdown-item" href="./pages/Articles.html"
+                        >Articles</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./pages/Announcement.html"
+                        >Announcement</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./pages/event.html"
+                        >Event</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./pages/press-release.html"
+                        >Press Release</a
+                      >
+                    </li>
+                  </div>
+                </ul>
               </li>
               <!-- program -->
-              <li class="nav-item">
-                <a class="nav-link" href="#">Program</a>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="program"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Program
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="program">
+                  <div class="dropdown-container">
+                    <i class="bi bi-caret-up-fill"></i>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="./pages/extracurricular.html"
+                        >Ekstrakulikuler</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./pages/schedule.html"
+                        >Jadwal</a
+                      >
+                    </li>
+                  </div>
+                </ul>
               </li>
               <!-- sarana -->
               <li class="nav-item">
@@ -139,11 +204,13 @@
               </li>
               <!-- galeri -->
               <li class="nav-item">
-                <a class="nav-link" href="./gallery.html">Galeri</a>
+                <a class="nav-link" href="./pages/gallery.html">Galeri</a>
               </li>
               <!-- hubungi kami -->
               <li class="nav-item">
-                <a class="nav-link" href="./contactUs.html">Hubungi Kami</a>
+                <a class="nav-link" href="./pages/contactUs.html"
+                  >Hubungi Kami</a
+                >
               </li>
             </ul>
           </div>
@@ -151,90 +218,13 @@
       </nav>
     </div>
 
-    <!-- history -->
-    <div class="detail-news">
+    <!-- notFound -->
+    <div class="notFound">
       <div class="container">
-        <!-- detail-news item  -->
-        <div class="detail-news">
-          <!-- detail-news title  -->
-          <h1>
-            Ayo Dukung Siswa Kita di Program Samsung Innovation Campus 2021
-          </h1>
-          <!-- detail-news info  -->
-          <div class="info">
-            <div class="date">
-              <i class="bi bi-calendar3"></i>
-              <p>24/10/2021</p>
-            </div>
-            <div class="author">
-              <i class="bi bi-person-fill"></i>
-              <p>Admin</p>
-            </div>
-            <div class="author">
-              <i class="bi bi-newspaper"></i>
-              <p>ARTICLES</p>
-            </div>
-          </div>
-          <!-- detail-news image  -->
-          <div class="detail-news-image">
-            <img
-              src="https://www.smkn1-cmi.sch.id/wp-content/uploads/2021/10/sic-2021.png"
-              alt="detail-news"
-            />
-          </div>
-          <!-- detail-news desc  -->
-          <div class="detail-news-desc">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto
-              voluptas accusamus quos iste aut veritatis impedit, possimus ex
-              quas minima doloribus illum omnis? Omnis delectus, dolores
-              dignissimos perspiciatis quod totam! Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Iusto voluptas accusamus quos iste
-              aut veritatis impedit, possimus ex quas minima doloribus illum
-              omnis? Omnis delectus, dolores dignissimos perspiciatis quod
-              totam! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Iusto voluptas accusamus quos iste aut veritatis impedit, possimus
-              ex quas minima doloribus illum omnis? Omnis delectus, dolores
-              dignissimos perspiciatis quod totam! Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Iusto voluptas accusamus quos iste
-              aut veritatis impedit, possimus ex quas minima doloribus illum
-              omnis? Omnis delectus, dolores dignissimos perspiciatis quod
-              totam!
-            </p>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto
-              voluptas accusamus quos iste aut veritatis impedit, possimus ex
-              quas minima doloribus illum omnis? Omnis delectus, dolores
-              dignissimos perspiciatis quod totam! Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Iusto voluptas accusamus quos iste
-              aut veritatis impedit, possimus ex quas minima doloribus illum
-              omnis? Omnis delectus, dolores dignissimos perspiciatis quod
-              totam! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Iusto voluptas accusamus quos iste aut veritatis impedit, possimus
-              ex quas minima doloribus illum omnis? Omnis delectus, dolores
-              dignissimos perspiciatis quod totam! Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Iusto voluptas accusamus quos iste
-              aut veritatis impedit, possimus ex quas minima doloribus illum
-              omnis? Omnis delectus, dolores dignissimos perspiciatis quod
-              totam!
-            </p>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto
-              voluptas accusamus quos iste aut veritatis impedit, possimus ex
-              quas minima doloribus illum omnis? Omnis delectus, dolores
-              dignissimos perspiciatis quod totam! Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Iusto voluptas accusamus quos iste
-              aut veritatis impedit, possimus ex quas minima doloribus illum
-              omnis? Omnis delectus, dolores dignissimos perspiciatis quod
-              totam! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Iusto voluptas accusamus quos iste aut veritatis impedit, possimus
-              ex quas minima doloribus illum omnis? Omnis delectus, dolores
-              dignissimos perspiciatis quod totam! Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Iusto voluptas accusamus quos iste
-              aut veritatis impedit, possimus ex quas minima doloribus illum
-              omnis? Omnis delectus, dolores dignissimos perspiciatis quod
-              totam!
-            </p>
+        <div class="row">
+          <div class="col-md-12">
+            <img src="./assets/images/404.jpg" alt="Page not found" />
+            <h1>Page not found</h1>
           </div>
         </div>
       </div>
@@ -247,7 +237,7 @@
         <div class="container">
           <!-- left  -->
           <div class="left">
-            <img src="../assets/images/logo_sds.png" alt="SDS Dewi Sartika" />
+            <img src="./assets/images/logo_sds.png" alt="SDS Dewi Sartika" />
             <h1>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima
               explicabo quas doloribus veniam saepe repellat, maxime molestiae
