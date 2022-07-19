@@ -1,0 +1,22 @@
+.sarana {
+  margin: 3vh 0 9.9vh;
+}
+
+.sarana h1 {
+  font-weight: 700;
+  font-size: 300%;
+  line-height: 100%;
+  letter-spacing: 0.1px;
+  color: #a64b2a;
+  margin: 5vh 0 1vh;
+  text-align: center;
+}
+
+.sarana ol {
+  margin-top: 5vh;
+}
+
+.sarana ol li {
+  font-size: 100%;
+  margin-bottom: 1vh;
+}

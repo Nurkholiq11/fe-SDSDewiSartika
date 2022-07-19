@@ -1,0 +1,28 @@
+.data-siswa {
+  margin: 3vh 0 10vh;
+}
+
+.data-siswa h1 {
+  font-weight: 700;
+  font-size: 300%;
+  line-height: 100%;
+  letter-spacing: 0.1px;
+  color: #a64b2a;
+  margin: 5vh 0 1vh;
+  text-align: center;
+}
+
+.data-siswa .container h2 {
+  text-align: left;
+  margin-top: 5vh;
+}
+
+.data-siswa .data {
+  margin-top: -2vh;
+}
+
+.data-siswa .data h1 {
+  text-align: left;
+  font-size: 130%;
+  color: #000;
+}

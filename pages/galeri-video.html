@@ -19,7 +19,7 @@
     <!-- mycss -->
     <link rel="stylesheet" href="../assets/css/header.css" />
     <link rel="stylesheet" href="../assets/css/footer.css" />
-    <link rel="stylesheet" href="../assets/css/gallery.css" />
+    <link rel="stylesheet" href="../assets/css/galeri-video.css" />
 
     <!-- icon  -->
     <link
@@ -66,12 +66,9 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mx-auto">
-              <!-- beranda -->
+              <!-- home -->
               <li class="nav-item">
-                <a
-                  class="nav-link"
-                  aria-current="page"
-                  href="../index.html"
+                <a class="nav-link" aria-current="page" href="../index.html"
                   >Home</a
                 >
               </li>
@@ -80,23 +77,18 @@
                 <a
                   class="nav-link dropdown-toggle"
                   href="#"
-                  id="navbarDropdownMenuLink"
+                  id="profil"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   Profil
                 </a>
-                <ul
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
+                <ul class="dropdown-menu" aria-labelledby="profil">
                   <div class="dropdown-container">
                     <i class="bi bi-caret-up-fill"></i>
                     <li>
-                      <a
-                        class="dropdown-item"
-                        href="./sejarah-singkat.html"
+                      <a class="dropdown-item" href="./sejarah-singkat.html"
                         >Sejarah Singkat</a
                       >
                     </li>
@@ -118,15 +110,8 @@
                       >
                     </li>
                     <li>
-                      <a
-                        class="dropdown-item"
-                        href="./profil-pimpinan.html"
+                      <a class="dropdown-item" href="./profil-pimpinan.html"
                         >Profil Pimpinan</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="./data-guru.html"
-                        >Data Guru</a
                       >
                     </li>
                   </div>
@@ -158,9 +143,7 @@
                       >
                     </li>
                     <li>
-                      <a class="dropdown-item" href="./event.html"
-                        >Event</a
-                      >
+                      <a class="dropdown-item" href="./event.html">Event</a>
                     </li>
                     <li>
                       <a class="dropdown-item" href="./press-release.html"
@@ -186,33 +169,103 @@
                   <div class="dropdown-container">
                     <i class="bi bi-caret-up-fill"></i>
                     <li>
-                      <a
-                        class="dropdown-item"
-                        href="./extracurricular.html"
+                      <a class="dropdown-item" href="./extracurricular.html"
                         >Ekstrakulikuler</a
                       >
                     </li>
                     <li>
-                      <a class="dropdown-item" href="./schedule.html"
-                        >Jadwal</a
-                      >
+                      <a class="dropdown-item" href="./schedule.html">Jadwal</a>
                     </li>
                   </div>
                 </ul>
               </li>
               <!-- sarana -->
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sarana</a>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="sarana"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Sarana
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="sarana">
+                  <div class="dropdown-container">
+                    <i class="bi bi-caret-up-fill"></i>
+                    <li>
+                      <a class="dropdown-item" href="./infrastruktur.html"
+                        >Infrastruktur</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./pembelajaran.html"
+                        >Pembelajaran</a
+                      >
+                    </li>
+                  </div>
+                </ul>
+              </li>
+              <!-- komunitas -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="komunitas"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Komunitas
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="komunitas">
+                  <div class="dropdown-container">
+                    <i class="bi bi-caret-up-fill"></i>
+                    <li>
+                      <a class="dropdown-item" href="./data-guru.html"
+                        >Data Guru</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./data-siswa.html"
+                        >Data Siswa</a
+                      >
+                    </li>
+                  </div>
+                </ul>
               </li>
               <!-- galeri -->
-              <li class="nav-item">
-                <a class="nav-link active" href="./gallery.html">Galeri</a>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle active"
+                  href="#"
+                  id="galeri"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Galeri
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="galeri">
+                  <div class="dropdown-container">
+                    <i class="bi bi-caret-up-fill"></i>
+                    <li>
+                      <a class="dropdown-item" href="./galeri-foto.html"
+                        >Foto</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./galeri-video.html"
+                        >Video</a
+                      >
+                    </li>
+                  </div>
+                </ul>
               </li>
               <!-- hubungi kami -->
               <li class="nav-item">
-                <a class="nav-link" href="./contactUs.html"
-                  >Hubungi Kami</a
-                >
+                <a class="nav-link" href="./contactUs.html">Hubungi Kami</a>
               </li>
             </ul>
           </div>
@@ -222,43 +275,38 @@
 
     <!-- gallery -->
     <div class="gallery">
-      <h1>Galeri</h1>
+      <h1>Video</h1>
       <div class="container">
         <div class="row">
           <!-- image -->
-          <div class="col-md-4 galery-img">
-            <img
-              src="https://img.freepik.com/free-photo/confident-teacher-explaining-lesson-pupils_74855-9751.jpg?t=st=1653748870~exp=1653749470~hmac=248f07a3116e70f7a61280c6bf62376de6e0629f40f1b23bdf7a7fe13381424a&w=1060"
-              alt=""
-            />
+          <div class="col-md-4 galery-video">
+            <iframe 
+              src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
           </div>
           <!-- image -->
-          <div class="col-md-4 galery-img">
-            <img
-          src="https://img.freepik.com/free-photo/classroom-kindergarten-interior-design_53876-144952.jpg?t=st=1653748870~exp=1653749470~hmac=fc910bd5b675e1ba66fd82b70113db32071d5eed0a1f29d2614b9abcfce95349&w=1060"
-          alt=""
-        />
+          <div class="col-md-4 galery-video">
+            <iframe 
+              src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
           </div>
           <!-- image -->
-          <div class="col-md-4 galery-img">
-            <img
-          src="https://img.freepik.com/free-photo/large-modern-office-building_1127-3070.jpg?t=st=1653748870~exp=1653749470~hmac=a0391a628536bed2226137663ce4414995e83fe3c1847e512b1a14c6b16c36d2&w=1060"
-          alt=""
-        />
+          <div class="col-md-4 galery-video">
+            <iframe 
+              src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
         </div>
           <!-- image -->
-          <div class="col-md-4 galery-img">
-            <img
-          src="https://img.freepik.com/free-photo/classroom-kindergarten-interior-design_53876-144952.jpg?t=st=1653748870~exp=1653749470~hmac=fc910bd5b675e1ba66fd82b70113db32071d5eed0a1f29d2614b9abcfce95349&w=1060"
-          alt=""
-        />
+          <div class="col-md-4 galery-video">
+            <iframe 
+              src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
           </div>
           <!-- image -->
-          <div class="col-md-4 galery-img">
-            <img
-          src="https://img.freepik.com/free-photo/large-modern-office-building_1127-3070.jpg?t=st=1653748870~exp=1653749470~hmac=a0391a628536bed2226137663ce4414995e83fe3c1847e512b1a14c6b16c36d2&w=1060"
-          alt=""
-        />
+          <div class="col-md-4 galery-video">
+            <iframe 
+              src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
         </div>
       </div>
     </div>
