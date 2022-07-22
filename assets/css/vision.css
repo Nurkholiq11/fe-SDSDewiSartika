@@ -33,3 +33,28 @@
   letter-spacing: 0.1px;
   color: #00000095;
 }
+
+/* responsive */
+@media only screen and (max-width: 768px) {
+  .vision {
+    margin: 3vh 0 5vh;
+    padding: 0 7vw;
+  }
+
+  .vision h1 {
+    font-size: 150%;
+  }
+
+  .vision p {
+    font-size: 90%;
+  }
+
+  .vision ol {
+    padding: 0 1.5vw;
+  }
+
+  .vision ol li {
+    font-size: 90%;
+    margin-left: 2vw;
+  }
+}

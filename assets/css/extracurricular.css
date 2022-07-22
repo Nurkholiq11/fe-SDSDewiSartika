@@ -1,18 +1,44 @@
 .extracurricular {
   margin: 3vh 0 10vh;
-  text-align: center;
+}
+
+.extracurricular .container {
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .extracurricular h1 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 300%;
   line-height: 24px;
   letter-spacing: 0.1px;
   color: #a64b2a;
-  margin: 5vh 0 1vh;
+  margin: 5vh 0 5vh;
   text-align: center;
 }
 
-.extracurricular .container {
-  padding-top: 2vh;
+.extracurricular .table {
+  width: 100%;
+}
+
+/* responsive */
+@media only screen and (max-width: 768px) {
+  .extracurricular {
+    width: 100%;
+    margin: 3vh 0 5vh;
+  }
+
+  .extracurricular h1 {
+    font-size: 150%;
+  }
+
+  .extracurricular .table thead tr th {
+    font-size: 50%;
+  }
+
+  .extracurricular .table tbody tr th,
+  .extracurricular .table tbody tr td {
+    font-size: 50%;
+  }
 }

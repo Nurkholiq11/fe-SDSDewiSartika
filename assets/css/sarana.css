@@ -18,5 +18,22 @@
 
 .sarana ol li {
   font-size: 100%;
+  font-weight: 400;
   margin-bottom: 1vh;
+}
+
+/* responsive */
+@media only screen and (max-width: 768px) {
+  .sarana {
+    margin: 3vh 0 5vh;
+  }
+
+  .sarana h1 {
+    font-size: 150%;
+  }
+
+  .sarana ol li {
+    font-size: 90%;
+    font-weight: 400;
+  }
 }

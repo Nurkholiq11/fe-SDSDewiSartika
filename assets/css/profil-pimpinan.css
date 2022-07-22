@@ -47,3 +47,42 @@
   font-size: 100%;
   font-weight: 500;
 }
+
+/* responsive */
+@media only screen and (max-width: 768px) {
+  .profil-pimpinan {
+    margin: 3vh 0 5vh;
+    padding: 0 7vw;
+  }
+
+  .profil-pimpinan .img-side {
+    padding: 5vh 7vw 2vh;
+  }
+
+  .profil-pimpinan .img-side img {
+    width: 50%;
+    height: 100%;
+  }
+
+  .profil-pimpinan .detail-side h1 {
+    font-size: 150%;
+  }
+
+  .profil-pimpinan .detail-side h2 {
+    font-size: 90%;
+  }
+
+  .profil-pimpinan .detail-side h3 {
+    font-size: 90%;
+    margin-top: 3vh;
+  }
+
+  .profil-pimpinan .detail-side ul {
+    padding: 0 1.5vw;
+  }
+
+  .profil-pimpinan .detail-side ul li {
+    font-size: 90%;
+    margin-left: 2vw;
+  }
+}

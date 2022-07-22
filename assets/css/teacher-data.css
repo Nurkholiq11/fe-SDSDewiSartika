@@ -54,3 +54,42 @@
   font-size: 100%;
   font-weight: 400;
 }
+
+/* responsive */
+@media only screen and (max-width: 768px) {
+  .data-guru {
+    margin: 3vh 0 5vh;
+  }
+
+  .data-guru h1 {
+    font-size: 150%;
+    margin-bottom: 3vh;
+  }
+
+  .data-guru .container .data {
+    margin-bottom: -5vh;
+  }
+
+  .data-guru .container .data .card {
+    width: 65%;
+    height: 80%;
+    margin: auto;
+  }
+
+  .data-guru .container .data .card .card-image {
+    height: 25vh;
+  }
+
+  .data-guru .container .data .card .card-body {
+    height: 13vh;
+    padding-top: 3vh;
+  }
+
+  .data-guru .container .data .card .card-body .card-title {
+    font-size: 100%;
+  }
+
+  .data-guru .container .data .card .card-body .card-nim {
+    font-size: 80%;
+  }
+}

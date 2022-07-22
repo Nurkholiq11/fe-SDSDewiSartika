@@ -13,6 +13,7 @@
 }
 
 .data-siswa .container h2 {
+  font-size: 200%;
   text-align: left;
   margin-top: 5vh;
 }
@@ -25,4 +26,38 @@
   text-align: left;
   font-size: 130%;
   color: #000;
+}
+
+.data-siswa .data .table {
+  width: 100%;
+  text-align: center;
+}
+
+.data-siswa .data .table tr th,
+.data-siswa .data .table tr td {
+  font-size: 90%;
+}
+
+/* responsive */
+@media only screen and (max-width: 768px) {
+  .data-siswa {
+    margin: 3vh 0 5vh;
+  }
+
+  .data-siswa h1 {
+    font-size: 150%;
+  }
+
+  .data-siswa .container h2 {
+    font-size: 150%;
+  }
+
+  .data-siswa .data h1 {
+    font-size: 90%;
+  }
+
+  .data-siswa .data .table tr th,
+  .data-siswa .data .table tr td {
+    font-size: 80%;
+  }
 }
